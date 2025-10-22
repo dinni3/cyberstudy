@@ -1,0 +1,9 @@
+artifacts/
+artifacts/*
+tokens/
+*.key
+*.pem
+*.env
+*.log
+.DS_Store
+thumbs.db

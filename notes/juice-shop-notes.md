@@ -218,3 +218,14 @@ Impact rating: **High** for learning in a lab environment; **critical** if found
 - Keep screenshots and raw responses in `artifacts/` and do not push secrets to public repos.
 
 End of report.
+
+### PoC: Stored XSS — Product 1 — 2025-10-23
+**Target:** http://127.0.0.1:3000/#/product/1  
+**Payload:** `<p>poc-xss-01</p><svg/onload=console.log("poc-xss-01")>`  
+**How submitted:** POST /rest/products/1/reviews with Bearer token (admin)  
+**Artifacts:**  
+ - Request body: artifacts/requests/xss_payload.json  
+ - Raw POST request/response: artifacts/responses/xss_response.txt  
+ - Product page HTML: artifacts/responses/product_1.html  
+ - Product API raw: artifacts/responses/product_1_api_raw.txt  
+**Impact:** Stored XSS.  

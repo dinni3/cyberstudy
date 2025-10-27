@@ -1,0 +1,9 @@
+/db_inspect/
+/backup_2025-10-24/
+/container_dump/
+/*.db
+*.sqlite
+*.sqlite3
+*.bak
+artifacts/**/raw*
+artifacts/**/responses/*.txt

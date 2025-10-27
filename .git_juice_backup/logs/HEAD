@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 055b1da6300b9ad3858deb06ef331d6467a9313c dinni3 <dinnie.haiqal@live.iium.edu.my> 1761130541 +0800	commit (initial): Initial commit - Juice Shop pentest notes and setup
+055b1da6300b9ad3858deb06ef331d6467a9313c 0000000000000000000000000000000000000000 dinni3 <dinnie.haiqal@live.iium.edu.my> 1761130557 +0800	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 055b1da6300b9ad3858deb06ef331d6467a9313c dinni3 <dinnie.haiqal@live.iium.edu.my> 1761130557 +0800	Branch: renamed refs/heads/master to refs/heads/main
+055b1da6300b9ad3858deb06ef331d6467a9313c 5412cb02de7bfd458c559c1317ad223daccc78d9 dinni3 <dinnie.haiqal@live.iium.edu.my> 1761130630 +0800	pull --rebase origin main (start): checkout 5412cb02de7bfd458c559c1317ad223daccc78d9
+5412cb02de7bfd458c559c1317ad223daccc78d9 c6d214ebb789a2c06f46a3a4336c022b09a6817e dinni3 <dinnie.haiqal@live.iium.edu.my> 1761130630 +0800	pull --rebase origin main (pick): Initial commit - Juice Shop pentest notes and setup
+c6d214ebb789a2c06f46a3a4336c022b09a6817e c6d214ebb789a2c06f46a3a4336c022b09a6817e dinni3 <dinnie.haiqal@live.iium.edu.my> 1761130630 +0800	pull --rebase origin main (finish): returning to refs/heads/main
+c6d214ebb789a2c06f46a3a4336c022b09a6817e 6e7dac5e197ffc98351ed0e1fb6b397c3e105e7a dinni3 <dinnie.haiqal@live.iium.edu.my> 1761210931 +0800	commit: PoC: Stored XSS product 1 — added artifacts and notes (force-added ignored files)
+6e7dac5e197ffc98351ed0e1fb6b397c3e105e7a 083b036f5ad75b4d29d1e6d89e378baaf927e468 dinni3 <dinnie.haiqal@live.iium.edu.my> 1761550596 +0800	commit: Add redacted Juice Shop artifacts and PoC (no secrets)
+083b036f5ad75b4d29d1e6d89e378baaf927e468 6231059524f07f9af08ee49e93c1a0101137dcfd dinni3 <dinnie.haiqal@live.iium.edu.my> 1761551471 +0800	commit: Added new notes
+6231059524f07f9af08ee49e93c1a0101137dcfd 59a4892447ab453a3a3df52f6dc474e42e429422 dinni3 <dinnie.haiqal@live.iium.edu.my> 1761552583 +0800	commit: chore: add redacted Juice Shop PoC, notes and encrypted artifacts

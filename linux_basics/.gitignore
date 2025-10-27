@@ -1,0 +1,6 @@
+# ignore any heavy dumps or db copies
+*.tgz
+*.tar.gz
+*.db
+*.sqlite
+/tmp/

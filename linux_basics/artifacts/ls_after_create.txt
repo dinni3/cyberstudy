@@ -1,0 +1,5 @@
+total 16
+drwxrwxr-x 2 dinnie dinnie 4096 Oct 27 16:43 .
+drwxrwxr-x 5 dinnie dinnie 4096 Oct 27 16:42 ..
+-rw-rw-r-- 1 dinnie dinnie   21 Oct 27 16:43 file1.txt
+-rw-rw-r-- 1 dinnie dinnie   19 Oct 27 16:43 file2.txt

@@ -1,9 +1,19 @@
-artifacts/
-artifacts/*
-tokens/
-*.key
-*.pem
-*.env
-*.log
+# local DB and backups
+/db_inspect/
+/backup_2025-10-24/
+/container_dump/
+/*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# raw logs / raw responses / possible secrets
+artifacts/**/raw*
+artifacts/**/responses/*.txt
+artifacts/**/requests/*.txt
+artifacts/**/requests/*.json
+
+# OS / editor
+*.swp
+.vscode/
 .DS_Store
-thumbs.db

@@ -1,0 +1,5 @@
+Netid State  Recv-Q Send-Q      Local Address:Port  Peer Address:PortProcess                                 
+tcp   LISTEN 0      4096            127.0.0.1:40079      0.0.0.0:*    users:(("containerd",pid=9282,fd=9))   
+tcp   LISTEN 0      4096              0.0.0.0:3000       0.0.0.0:*    users:(("docker-proxy",pid=10825,fd=4))
+tcp   LISTEN 0      50     [::ffff:127.0.0.1]:8080             *:*    users:(("java",pid=93898,fd=37))       
+tcp   LISTEN 0      4096                 [::]:3000          [::]:*    users:(("docker-proxy",pid=10830,fd=4))

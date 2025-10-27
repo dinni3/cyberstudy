@@ -1,0 +1,16 @@
+../artifacts/idor/whoami_db_admin.txt:3:1   admin@juice-sh.op           admin  1         2025-10-21 14:01:15.928 +00:00  2025-10-21 14:01:15.928 +00:00
+../artifacts/idor/whoami_db_admin.txt:4:4   bjoern.kimminich@gmail.com  admin  1         2025-10-21 14:01:15.928 +00:00  2025-10-21 14:01:15.928 +00:00
+../artifacts/idor/whoami_db_admin.txt:5:6   support@juice-sh.op         admin  1         2025-10-21 14:01:15.929 +00:00  2025-10-21 14:01:15.929 +00:00
+../artifacts/idor/whoami_db_admin.txt:6:9   J12934@juice-sh.op          admin  1         2025-10-21 14:01:15.929 +00:00  2025-10-21 14:01:15.929 +00:00
+../artifacts/idor/whoami_db_admin.txt:7:10  wurstbrot@juice-sh.op       admin  1         2025-10-21 14:01:15.929 +00:00  2025-10-21 14:01:15.929 +00:00
+../artifacts/idor/whoami_db_admin.txt:8:12  bjoern@juice-sh.op          admin  1         2025-10-21 14:01:15.929 +00:00  2025-10-21 14:01:15.929 +00:00
+../artifacts/idor/whoami_db_admin.txt:9:22  testing@juice-sh.op         admin  1         2025-10-21 14:01:15.929 +00:00  2025-10-21 14:01:15.929 +00:00
+../artifacts/idor/admin_users_redacted.csv:2:1,"",admin@juice-sh.op,admin,1,"2025-10-21 14:01:15.928 +00:00"
+../artifacts/idor/admin_users_redacted.csv:3:4,bkimminich,bjoern.kimminich@gmail.com,admin,1,"2025-10-21 14:01:15.928 +00:00"
+../artifacts/idor/admin_users_redacted.csv:4:6,"",support@juice-sh.op,admin,1,"2025-10-21 14:01:15.929 +00:00"
+../artifacts/idor/admin_users_redacted.csv:5:9,"",J12934@juice-sh.op,admin,1,"2025-10-21 14:01:15.929 +00:00"
+../artifacts/idor/admin_users_redacted.csv:6:10,wurstbrot,wurstbrot@juice-sh.op,admin,1,"2025-10-21 14:01:15.929 +00:00"
+../artifacts/idor/admin_users_redacted.csv:7:12,"",bjoern@juice-sh.op,admin,1,"2025-10-21 14:01:15.929 +00:00"
+../artifacts/idor/admin_users_redacted.csv:8:22,"",testing@juice-sh.op,admin,1,"2025-10-21 14:01:15.929 +00:00"
+../artifacts/sample_emails.txt:1:admin@juice-sh.op
+../artifacts/sample.json:1:{"users":[{"id":1,"email":"admin@juice-sh.op"},{"id":2,"email":"jim@juice-sh.op"}]}

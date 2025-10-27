@@ -1,0 +1,10 @@
+;; Got recursion not available from 192.168.99.2
+Server:		192.168.99.2
+Address:	192.168.99.2#53
+
+Name:	google.com
+Address: 172.217.25.78
+;; Got recursion not available from 192.168.99.2
+Name:	google.com
+Address: 172.217.25.78
+

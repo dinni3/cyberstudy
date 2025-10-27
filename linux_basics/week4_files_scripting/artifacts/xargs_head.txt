@@ -1,0 +1,56 @@
+--- ./week4_files_scripting/artifacts/sample_data/b.txt ---
+sample two
+--- ./week4_files_scripting/artifacts/sample_data/a.txt ---
+sample one
+--- ./week4_files_scripting/artifacts/locate_results.txt ---
+/home/dinnie/lab/linux_basics/week4_files_scripting/artifacts/sample_data.tgz
+/home/dinnie/lab/linux_basics/week4_files_scripting/artifacts/sample_data.tgz.sha256
+--- ./week4_files_scripting/artifacts/find_txt_results.txt ---
+./week4_files_scripting/artifacts/sample_data/b.txt
+./week4_files_scripting/artifacts/sample_data/a.txt
+--- ./exercises/workdir/file2.txt ---
+another file
+line2
+--- ./exercises/perm_test.txt ---
+--- ./exercises/hello_world.txt ---
+hello
+this is a test
+--- ./networking_enumeration/artifacts/ping_results.txt ---
+PING google.com (172.217.25.78) 56(84) bytes of data.
+64 bytes from 172.217.25.78: icmp_seq=1 ttl=128 time=25.4 ms
+--- ./networking_enumeration/artifacts/nmap_scan.txt ---
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-27 17:03 +08
+Nmap scan report for google.com (172.217.25.78)
+--- ./networking_enumeration/artifacts/ifconfig_output.txt ---
+docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+--- ./networking_enumeration/artifacts/curl_banner.txt ---
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.com/
+--- ./networking_enumeration/artifacts/dig_lookup.txt ---
+;; Warning: Message parser reports malformed message packet.
+
+--- ./user_management_processes/artifacts/process_list.txt ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  25348 14404 ?        Ss   Oct26   0:04 /sbin/init splash
+--- ./user_management_processes/artifacts/user_list.txt ---
+dinnie
+--- ./user_management_processes/artifacts/system_stats.txt ---
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.8G     0  1.8G   0% /dev
+--- ./user_management_processes/artifacts/sudoers_preview.txt ---
+#
+# This file MUST be edited with the 'visudo' command as root.
+--- ./user_management_processes/artifacts/background_jobs.txt ---
+[1]  + running    sleep 10
+--- ./artifacts/ls_after_create.txt ---
+total 16
+drwxrwxr-x 2 dinnie dinnie 4096 Oct 27 16:43 .
+--- ./artifacts/perm_owner.txt ---
+-rwxr-xr-x 1 dinnie dinnie 0 Oct 27 16:45 perm_test.txt
+--- ./artifacts/perm_644.txt ---
+-rw-r--r-- 1 dinnie dinnie 0 Oct 27 16:45 perm_test.txt
+--- ./artifacts/perm_755.txt ---
+-rwxr-xr-x 1 dinnie dinnie 0 Oct 27 16:45 perm_test.txt
+--- ./artifacts/make_me_output.txt ---
+I run as dinnie and I am PID 590192

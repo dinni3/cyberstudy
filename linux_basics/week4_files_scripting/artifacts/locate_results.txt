@@ -1,0 +1,2 @@
+/home/dinnie/lab/linux_basics/week4_files_scripting/artifacts/sample_data.tgz
+/home/dinnie/lab/linux_basics/week4_files_scripting/artifacts/sample_data.tgz.sha256

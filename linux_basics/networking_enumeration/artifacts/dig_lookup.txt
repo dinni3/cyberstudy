@@ -1,0 +1,20 @@
+;; Warning: Message parser reports malformed message packet.
+
+; <<>> DiG 9.20.11-4+b1-Debian <<>> openai.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9919
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: Message has 16 extra bytes at end
+
+;; QUESTION SECTION:
+;openai.com.			IN	A
+
+;; ANSWER SECTION:
+.			5	CLASS1232 OPT	10 8 I961uCxF9BU=
+
+;; Query time: 43 msec
+;; SERVER: 192.168.99.2#53(192.168.99.2) (UDP)
+;; WHEN: Mon Oct 27 17:03:17 +08 2025
+;; MSG SIZE  rcvd: 67
+

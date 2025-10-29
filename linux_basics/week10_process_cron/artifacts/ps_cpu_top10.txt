@@ -1,0 +1,10 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dinnie     10396  2.3 24.0 4139036 961276 ?      Sl   Oct28  32:44 /usr/lib/firefox-esr/firefox-esr
+root         846  0.9  3.5 799960 141416 tty7    Rsl+ Oct28  13:19 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+65532      10869  0.5  5.9 1312508 240048 ?      Ssl  Oct28   7:35 /nodejs/bin/node /juice-shop/build/app.js
+dinnie     93898  0.3 16.4 5517976 659952 pts/1  Sl+  02:12   4:04 java -jar /usr/share/burpsuite/burpsuite.jar
+dinnie      1220  0.2  0.4 278960 19320 ?        Sl   Oct28   3:48 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+dinnie     99618  0.2  3.8 2506944 155868 ?      Sl   02:23   2:47 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:45313 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7247d1e4-1fd6-45fd-95f3-5a6aa1728270} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 16 tab
+dinnie      1160  0.1  1.1 892308 45304 ?        Sl   Oct28   2:38 xfwm4
+dinnie    104812  0.1  5.1 2592560 206132 ?      Sl   02:33   1:58 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:45459 -prefMapHandle 1:267852 -jsInitHandle 2:242716 -parentBuildID 20250922173505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {8cb1421f-fcc9-4bf1-873b-6ca9e785fe6d} -parentPid 10396 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 24 tab
+root         645  0.1  0.2 256168  8904 ?        Ssl  Oct28   1:41 /usr/bin/vmtoolsd

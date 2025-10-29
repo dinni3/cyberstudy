@@ -1,0 +1,20 @@
+systemd-+-ModemManager---3*[{ModemManager}]
+        |-NetworkManager---3*[{NetworkManager}]
+        |-accounts-daemon---3*[{accounts-daemon}]
+        |-agetty
+        |-colord---3*[{colord}]
+        |-containerd---7*[{containerd}]
+        |-containerd-shim-+-node---10*[{node}]
+        |                 `-12*[{containerd-shim}]
+        |-crashhelper---{crashhelper}
+        |-cron
+        |-dbus-daemon
+        |-dockerd-+-docker-proxy---6*[{docker-proxy}]
+        |         |-docker-proxy---5*[{docker-proxy}]
+        |         `-10*[{dockerd}]
+        |-exe-+-zsh-+-head
+        |     |     `-pstree
+        |     `-8*[{exe}]
+        |-fail2ban-server---4*[{fail2ban-server}]
+        |-haveged
+        |-lightdm-+-Xorg---{Xorg}

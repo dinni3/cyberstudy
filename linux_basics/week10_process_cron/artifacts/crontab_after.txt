@@ -1,0 +1,3 @@
+0 * * * * /home/dinnie/lab/linux_basics/week7_scripting_automation/backup_auto.sh /home/dinnie/lab/linux_basics/notes
+* * * * * ~/lab/linux_basics/week10_process_cron/hello_cron.sh
+* * * * * ~/lab/linux_basics/week10_process_cron/hello_cron.sh

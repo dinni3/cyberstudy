@@ -1,0 +1,17 @@
+ Static hostname: dinnie-kali
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 23870744158b4e78b5221e54a1f14561
+         Boot ID: b946f644487a4b6d9e3abe533952ddd0
+    AF_VSOCK CID: 1
+  Virtualization: vmware
+Operating System: Kali GNU/Linux Rolling
+          Kernel: Linux 6.16.8+kali-arm64
+    Architecture: arm64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware20,1
+    Hardware SKU: 0000000000000001
+Hardware Version: 1
+Firmware Version: VMW201.00V.24006586.BA64.2406042154
+   Firmware Date: Tue 2024-06-04
+    Firmware Age: 1y 4month 3w 4d

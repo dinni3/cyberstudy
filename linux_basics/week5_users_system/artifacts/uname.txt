@@ -1,0 +1,1 @@
+Linux dinnie-kali 6.16.8+kali-arm64 #1 SMP PREEMPT Kali 6.16.8-1kali1 (2025-09-24) aarch64 GNU/Linux

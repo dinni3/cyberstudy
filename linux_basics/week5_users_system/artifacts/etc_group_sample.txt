@@ -1,0 +1,10 @@
+root
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news

@@ -1,0 +1,12 @@
+sending incremental file list
+created directory /home/dinnie/lab/linux_basics/week11_backup_logging/rsync_backup
+./
+file1.txt
+file2.txt
+file3.txt
+file4.txt
+file5.txt
+info.txt
+
+sent 606 bytes  received 220 bytes  1.65K bytes/sec
+total size is 170  speedup is 0.21

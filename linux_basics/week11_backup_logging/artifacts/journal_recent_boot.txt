@@ -1,0 +1,50 @@
+Oct 29 22:20:50 dinnie-kali systemd[1]: Reloading...
+Oct 29 22:20:50 dinnie-kali systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: SysV service '/etc/init.d/dns2tcp' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: Please update package to include a native systemd unit file.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: SysV service '/etc/init.d/ptunnel' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: Please update package to include a native systemd unit file.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: SysV service '/etc/init.d/inetsim' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: Please update package to include a native systemd unit file.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: Please update package to include a native systemd unit file.
+Oct 29 22:20:50 dinnie-kali systemd-sysv-generator[711824]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 29 22:20:50 dinnie-kali systemd[1]: Reloading finished in 84 ms.
+Oct 29 22:20:50 dinnie-kali sudo[711604]: pam_unix(sudo:session): session closed for user root
+Oct 29 22:21:00 dinnie-kali atd[711916]: pam_unix(atd:session): session opened for user dinnie(uid=1000) by dinnie(uid=1)
+Oct 29 22:21:00 dinnie-kali atd[711916]: pam_env(atd:setcred): deprecated reading of user environment enabled
+Oct 29 22:21:00 dinnie-kali atd[711916]: pam_env(atd:setcred): deprecated reading of user environment enabled
+Oct 29 22:21:00 dinnie-kali atd[711916]: pam_unix(atd:session): session closed for user dinnie
+Oct 29 22:21:01 dinnie-kali CRON[711928]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:21:01 dinnie-kali CRON[711927]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:21:01 dinnie-kali CRON[711931]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:21:01 dinnie-kali CRON[711932]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:21:01 dinnie-kali CRON[711927]: pam_unix(cron:session): session closed for user dinnie
+Oct 29 22:21:01 dinnie-kali CRON[711928]: pam_unix(cron:session): session closed for user dinnie
+Oct 29 22:21:30 dinnie-kali NetworkManager[788]: <info>  [1761747690.0229] dhcp4 (eth0): state changed new lease, address=192.168.99.128
+Oct 29 22:21:30 dinnie-kali dbus-daemon[655]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=788 comm="/usr/sbin/NetworkManager --no-daemon")
+Oct 29 22:21:30 dinnie-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Oct 29 22:21:30 dinnie-kali dbus-daemon[655]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 29 22:21:30 dinnie-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Oct 29 22:21:40 dinnie-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 29 22:22:01 dinnie-kali CRON[712430]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:22:01 dinnie-kali CRON[712429]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:22:01 dinnie-kali CRON[712433]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:22:01 dinnie-kali CRON[712435]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:22:01 dinnie-kali CRON[712430]: pam_unix(cron:session): session closed for user dinnie
+Oct 29 22:22:01 dinnie-kali CRON[712429]: pam_unix(cron:session): session closed for user dinnie
+Oct 29 22:23:01 dinnie-kali CRON[712954]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:23:01 dinnie-kali CRON[712955]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:23:01 dinnie-kali CRON[712960]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:23:01 dinnie-kali CRON[712961]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:23:01 dinnie-kali CRON[712954]: pam_unix(cron:session): session closed for user dinnie
+Oct 29 22:23:01 dinnie-kali CRON[712955]: pam_unix(cron:session): session closed for user dinnie
+Oct 29 22:24:01 dinnie-kali CRON[713452]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:24:01 dinnie-kali CRON[713453]: pam_unix(cron:session): session opened for user dinnie(uid=1000) by dinnie(uid=0)
+Oct 29 22:24:01 dinnie-kali CRON[713456]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:24:01 dinnie-kali CRON[713457]: (dinnie) CMD (~/lab/linux_basics/week10_process_cron/hello_cron.sh)
+Oct 29 22:24:01 dinnie-kali CRON[713452]: pam_unix(cron:session): session closed for user dinnie
+Oct 29 22:24:01 dinnie-kali CRON[713453]: pam_unix(cron:session): session closed for user dinnie

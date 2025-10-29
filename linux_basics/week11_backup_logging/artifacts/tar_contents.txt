@@ -1,0 +1,7 @@
+drwxrwxr-x dinnie/dinnie     0 2025-10-29 22:24 source_dir/
+-rw-rw-r-- dinnie/dinnie    19 2025-10-29 22:24 source_dir/file3.txt
+-rw-rw-r-- dinnie/dinnie    75 2025-10-29 22:24 source_dir/info.txt
+-rw-rw-r-- dinnie/dinnie    19 2025-10-29 22:24 source_dir/file4.txt
+-rw-rw-r-- dinnie/dinnie    19 2025-10-29 22:24 source_dir/file2.txt
+-rw-rw-r-- dinnie/dinnie    19 2025-10-29 22:24 source_dir/file1.txt
+-rw-rw-r-- dinnie/dinnie    19 2025-10-29 22:24 source_dir/file5.txt

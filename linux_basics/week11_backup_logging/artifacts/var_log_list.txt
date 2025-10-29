@@ -1,0 +1,20 @@
+total 2576
+-rw-r--r--  1 root              root             106599 Oct 29 22:20 alternatives.log
+drwxr-x---  2 root              adm                4096 Oct 21 21:29 apache2
+drwxr-xr-x  2 root              root               4096 Oct 29 22:20 apt
+-rw-------  1 root              root                  0 Oct 23 15:22 boot.log
+-rw-------  1 root              root              13086 Oct 23 15:22 boot.log.1
+-rw-rw----  1 root              utmp                  0 Oct 21 21:25 btmp
+-rw-r--r--  1 root              root            1934826 Oct 29 22:20 dpkg.log
+drwxr-s---  2 Debian-exim       adm                4096 Oct 29 22:20 exim4
+-rw-r-----  1 root              adm                1576 Oct 29 22:06 fail2ban.log
+-rw-r--r--  1 root              root               7120 Oct 21 21:42 fontconfig.log
+drwxr-xr-x  2 _gvm              _gvm               4096 Aug 20 16:49 gvm
+drwx------  3 inetsim           inetsim            4096 Oct 21 21:29 inetsim
+drwxr-xr-x  3 root              root               4096 Oct 21 21:32 installer
+drwxr-sr-x+ 3 root              systemd-journal    4096 Oct 22 05:32 journal
+-rw-rw-r--  1 root              utmp                  0 Oct 21 21:25 lastlog
+drwx--x--x  2 root              root               4096 Oct 21 21:45 lightdm
+-rw-r--r--  1 root              root                 59 Oct 21 21:45 macchanger.log.1.gz
+drwxr-xr-x  2 mosquitto         root               4096 Aug 13 13:30 mosquitto
+drwxr-xr-x  2 root              adm                4096 Oct 21 21:28 nginx

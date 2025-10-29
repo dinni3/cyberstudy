@@ -1,0 +1,7 @@
+total 24
+-rw-rw-r-- 1 dinnie dinnie 19 Oct 29 22:24 file1.txt
+-rw-rw-r-- 1 dinnie dinnie 19 Oct 29 22:24 file2.txt
+-rw-rw-r-- 1 dinnie dinnie 19 Oct 29 22:24 file3.txt
+-rw-rw-r-- 1 dinnie dinnie 19 Oct 29 22:24 file4.txt
+-rw-rw-r-- 1 dinnie dinnie 19 Oct 29 22:24 file5.txt
+-rw-rw-r-- 1 dinnie dinnie 75 Oct 29 22:24 info.txt

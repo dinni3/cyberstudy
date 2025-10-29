@@ -1,0 +1,10 @@
+Oct 29 21:55:50 dinnie-kali sudo[696515]: pam_unix(sudo:session): session opened for user root(uid=0) by dinnie(uid=1000)
+Oct 29 21:55:50 dinnie-kali sudo[696515]: pam_unix(sudo:session): session closed for user root
+Oct 29 21:55:54 dinnie-kali sudo[696555]:   dinnie : TTY=pts/2 ; PWD=/home/dinnie/lab/linux_basics ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+Oct 29 21:55:54 dinnie-kali sudo[696555]: pam_unix(sudo:session): session opened for user root(uid=0) by dinnie(uid=1000)
+Oct 29 21:55:54 dinnie-kali sudo[696555]: pam_unix(sudo:session): session closed for user root
+Oct 29 21:55:54 dinnie-kali sudo[696560]:   dinnie : TTY=pts/2 ; PWD=/home/dinnie/lab/linux_basics ; USER=root ; COMMAND=/usr/bin/apt install -y traceroute
+Oct 29 21:55:54 dinnie-kali sudo[696560]: pam_unix(sudo:session): session opened for user root(uid=0) by dinnie(uid=1000)
+Oct 29 21:55:54 dinnie-kali sudo[696560]: pam_unix(sudo:session): session closed for user root
+Oct 29 21:56:46 dinnie-kali sudo[697008]:   dinnie : TTY=pts/2 ; PWD=/home/dinnie/lab/linux_basics ; USER=root ; COMMAND=/usr/bin/journalctl -n 10
+Oct 29 21:56:46 dinnie-kali sudo[697008]: pam_unix(sudo:session): session opened for user root(uid=0) by dinnie(uid=1000)

@@ -1,0 +1,10 @@
+    PID COMMAND         %CPU %MEM
+  10396 firefox-esr      2.4 26.6
+    846 Xorg             0.9  3.3
+  10869 node             0.5  7.0
+  93898 java             0.3 16.7
+   1220 wrapper-2.0      0.2  0.4
+  99618 Isolated Web Co  0.2  4.1
+   1160 xfwm4            0.1  1.1
+ 104812 Isolated Web Co  0.1  5.6
+    645 vmtoolsd         0.1  0.2

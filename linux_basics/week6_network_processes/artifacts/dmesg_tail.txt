@@ -1,0 +1,15 @@
+[72763.622753] e1000e 0000:02:00.0 eth0: NIC Link is Down
+[72976.614265] e1000e 0000:02:00.0 eth0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+[81671.594886] e1000e 0000:02:00.0 eth0: NIC Link is Down
+[81671.667313] e1000e 0000:02:00.0 eth0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+[81672.151554] e1000e 0000:02:00.0 eth0: NIC Link is Down
+[81672.218640] e1000e 0000:02:00.0 eth0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+[81687.843137] usb 2-1: reset high-speed USB device number 2 using xhci_hcd
+[81688.054612] usb 2-3.1: new full-speed USB device number 10 using xhci_hcd
+[81688.142008] usb 2-3.1: New USB device found, idVendor=0e0f, idProduct=0006, bcdDevice= 1.00
+[81688.142011] usb 2-3.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[81688.142011] usb 2-3.1: Product: VMware Virtual USB Keyboard
+[81688.142012] usb 2-3.1: Manufacturer: VMware
+[81688.142629] input: VMware VMware Virtual USB Keyboard as /devices/pci0000:00/0000:00:16.0/0000:0a:00.0/usb2/2-3/2-3.1/2-3.1:1.0/0003:0E0F:0006.0007/input/input11
+[81688.274232] hid-generic 0003:0E0F:0006.0007: input,hidraw3: USB HID v1.10 Keyboard [VMware VMware Virtual USB Keyboard] on usb-0000:0a:00.0-3.1/input0
+[81688.274389] usb 2-3.2: USB disconnect, device number 9

@@ -1,0 +1,6 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:40079         0.0.0.0:*               LISTEN      9282/containerd     
+tcp        0      0 0.0.0.0:3000            0.0.0.0:*               LISTEN      10825/docker-proxy  
+tcp6       0      0 127.0.0.1:8080          :::*                    LISTEN      93898/java          
+tcp6       0      0 :::3000                 :::*                    LISTEN      10830/docker-proxy  

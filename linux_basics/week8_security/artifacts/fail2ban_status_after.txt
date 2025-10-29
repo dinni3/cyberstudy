@@ -1,0 +1,14 @@
+● fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/usr/lib/systemd/system/fail2ban.service; enabled; preset: disabled)
+     Active: active (running) since Wed 2025-10-29 22:06:18 +08; 404ms ago
+ Invocation: 632443c0092b43778acd45f8e8d65ae6
+       Docs: man:fail2ban(1)
+   Main PID: 702936 (fail2ban-server)
+      Tasks: 5 (limit: 4403)
+     Memory: 15M (peak: 15.2M)
+        CPU: 47ms
+     CGroup: /system.slice/fail2ban.service
+             └─702936 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+Oct 29 22:06:18 dinnie-kali systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Oct 29 22:06:19 dinnie-kali fail2ban-server[702936]: Server ready

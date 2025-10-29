@@ -1,0 +1,2 @@
+Oct 29 22:06:18 dinnie-kali systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Oct 29 22:06:19 dinnie-kali fail2ban-server[702936]: Server ready

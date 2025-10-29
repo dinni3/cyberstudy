@@ -1,0 +1,9 @@
+274:[sshd]
+275-
+276-# To use more aggressive sshd modes set filter parameter "mode" in jail.local:
+277-# normal (default), ddos, extra or aggressive (combines all).
+278-# See "tests/files/logs/sshd" or "filter.d/sshd.conf" for usage example and details.
+279-#mode   = normal
+280-port    = ssh
+281-logpath = %(sshd_log)s
+282-backend = %(sshd_backend)s

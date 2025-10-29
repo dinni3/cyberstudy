@@ -1,0 +1,4 @@
+○ fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/usr/lib/systemd/system/fail2ban.service; disabled; preset: disabled)
+     Active: inactive (dead)
+       Docs: man:fail2ban(1)

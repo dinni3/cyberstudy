@@ -1,0 +1,10 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      722840 78.7  0.1  21984  7316 ?        R    22:39  19:08 sudo useradd -m -s /bin/bash adminuser -G project_team
+root      734693  4.8  0.0      0     0 ?        I    23:00   0:10 [kworker/u10:1-events_unbound]
+root      726470  3.4  0.0      0     0 ?        I    22:46   0:35 [kworker/u10:3-events_unbound]
+root      725427  2.0  0.0      0     0 ?        I    22:44   0:23 [kworker/u9:3-events_unbound]
+root         846  0.9  3.6 805172 147272 tty7    Ssl+ Oct28  13:43 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      676606  0.8  0.0      0     0 ?        I    21:18   0:54 [kworker/u10:0-events_unbound]
+65532      10869  0.5  6.1 1312508 244808 ?      Ssl  Oct28   7:43 /nodejs/bin/node /juice-shop/build/app.js
+root      569027  0.3  0.0      0     0 ?        I    17:48   1:09 [kworker/u9:1-events_unbound]
+dinnie     93898  0.3 16.5 5564264 662044 pts/1  Sl+  02:12   4:08 java -jar /usr/share/burpsuite/burpsuite.jar

@@ -1,0 +1,1 @@
+drwxrwx--- 2 root project_team 4096 Oct 29 22:26 /opt/project_shared

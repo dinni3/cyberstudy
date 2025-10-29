@@ -1,0 +1,10 @@
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/usr/lib/systemd/system/ssh.service; disabled; preset: disabled)
+     Active: active (running) since Wed 2025-10-29 23:00:51 +08; 25s ago
+ Invocation: b74aba2f93354738923d9a6adf197128
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 735079 ExecStartPre=/usr/sbin/sshd -t (code=exited, status=0/SUCCESS)
+   Main PID: 735082 (sshd)
+      Tasks: 1 (limit: 4403)
+     Memory: 1.3M (peak: 2.3M)

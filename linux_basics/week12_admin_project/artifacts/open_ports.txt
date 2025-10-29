@@ -1,0 +1,6 @@
+Netid State  Recv-Q Send-Q      Local Address:Port  Peer Address:Port
+udp   UNCONN 0      0                 0.0.0.0:41854      0.0.0.0:*   
+tcp   LISTEN 0      4096            127.0.0.1:40079      0.0.0.0:*   
+tcp   LISTEN 0      4096              0.0.0.0:3000       0.0.0.0:*   
+tcp   LISTEN 0      50     [::ffff:127.0.0.1]:8080             *:*   
+tcp   LISTEN 0      4096                 [::]:3000          [::]:*   

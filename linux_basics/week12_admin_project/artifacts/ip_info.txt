@@ -1,0 +1,7 @@
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host noprefixroute 
+    inet 192.168.99.128/24 brd 192.168.99.255 scope global dynamic noprefixroute eth0
+    inet6 fe80::20c:29ff:febe:d644/64 scope link noprefixroute 
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+    inet6 fe80::42:7dff:fe9a:b536/64 scope link proto kernel_ll 
+    inet6 fe80::70dc:6dff:fe88:6cd9/64 scope link proto kernel_ll 

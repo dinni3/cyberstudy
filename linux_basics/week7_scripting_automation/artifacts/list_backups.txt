@@ -1,0 +1,4 @@
+total 8.0K
+-rw-rw-r-- 1 dinnie dinnie 2.6K Oct 29 21:57 backup_20251029_215727.tgz
+-rw-rw-r-- 1 dinnie dinnie  160 Oct 29 21:57 backup_20251029_215727.tgz.sha256
+-rw-rw-r-- 1 dinnie dinnie    0 Oct 29 21:57 list_backups.txt

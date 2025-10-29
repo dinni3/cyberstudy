@@ -1,0 +1,1 @@
+0 * * * * /home/dinnie/lab/linux_basics/week7_scripting_automation/backup_auto.sh /home/dinnie/lab/linux_basics/notes

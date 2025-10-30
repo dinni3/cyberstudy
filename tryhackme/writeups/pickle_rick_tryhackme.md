@@ -1,73 +1,96 @@
-# TryHackMe — Pickle Rick (Room) — Writeup
-**Target:** TryHackMe Pickle Rick room  
-**Local mirror / artifacts:** `~/lab/tryhackme/artifacts/<IP>/`  
+# TryHackMe — Pickle Rick (room) — Walkthrough-style Writeup
+**Target (lab IP):** `<ROOM_IP>`  
 **Author:** dinnie  
-**Date:** 2025-10-30  
-**Reference walkthrough used:** https://whokilleddb.medium.com/tryhackme-pickle-rick-walkthrough-2c33bf07c77b
+**Date:** $(date -u +"%Y-%m-%d %H:%M:%SZ")  
+**Reference:** adapted from the walkthrough (lab).
 
 ---
 
-## Summary / Objective
-Recover the three secret ingredients required to finish Rick’s pickle-reverse potion. This room hides clues client-side (HTML comments & `assets/` files) and requires basic web enumeration + static analysis.
+## TL;DR
+You enumerate the web host (HTTP), find a hint (username) in HTML comments and a password in `robots.txt`, discover a `portal.php` login, authenticate with the discovered credentials, use the portal's command box to list files and read files (using `less` since `cat` is restricted), find first secret ingredient, then use `sudo -l` (passwordless sudo) to enumerate higher-privilege files and read the remaining two ingredients.
 
-**Answers (paste in exact format required by TryHackMe):**
-1. First ingredient: **. ******* ****  
-2. Second ingredient: * ***** ****  
-3. Last ingredient: ***** *****
+**TryHackMe Answer placeholders (filled):**
+1. First ingredient: **${ING1}**  
+2. Second ingredient: **${ING2}**  
+3. Last ingredient: **${ING3}**
 
-> Replace the placeholder lines above with the exact answers when submitting.
-
----
-
-## Environment
-- Host OS: macOS (browser + file transfer)
-- Lab host / attack VM: Kali Linux VM (VMware)  
-  - Kali IP: `192.168.99.128`
-- VPN: TryHackMe OpenVPN config used (saved to `~/lab/tryhackme/tryhackme.ovpn`)
-- Lab folder: `~/lab/tryhackme`
-- Tools used: `curl`, `nmap`, `gobuster`, `wget`, `grep`, `strings`, `exiftool` (optional), text editor, browser DevTools, Burp Suite (optional)
+> Note: These answers are included here per your request. If you plan to publish this repository publicly, consider removing or redacting direct answers to challenge rooms.
 
 ---
 
-## What I found (high level)
-- HTML comment in `index.html` contained `Username: R1ckRul3s`.
-- Additional clues were in `/assets` (JS / text files). The three secret ingredients were hidden client-side and discovered by enumerating assets and inspecting files.
-- All testing performed against TryHackMe lab target only.
+## Environment & artifacts
+- Kali VM (connected to TryHackMe VPN)
+- Working folder: `$WORKDIR`
+- Artifacts (local): `$WORKDIR/artifacts/<ROOM_IP>/`
+- Tools used: `nmap`, `curl`, `wget`, `gobuster`, browser DevTools, `less`, `grep`.
+
+**Safety note:** do not push VPN configs, private keys, or tokens to public repos.
 
 ---
 
-## Step-by-step commands (what I ran)
-> Run these from `~/lab/tryhackme` — adjust `$TARGET` to the room IP if needed.
+## Step-by-step walkthrough (commands & notes)
 
+### 0) Prep / set variables
 ```bash
-# set target (example)
-TARGET=10.201.112.167
-ART=~/lab/tryhackme/artifacts/$TARGET
-mkdir -p "$ART"
+TARGET=<room-ip>
+ART="\$HOME/lab/tryhackme/artifacts/\$TARGET"
+mkdir -p "\$ART" "\$ART/web"
+Discovery
 
-# 1) Confirm connectivity
+bash
+Copy code
 ping -c 3 $TARGET | tee "$ART/ping.txt"
-
-# 2) Quick port/service discovery
 nmap -Pn -sS -sV -T4 -oN "$ART/nmap_quick.txt" $TARGET
+# Expect: port 80 (http) open (and often port 22 ssh)
+Visit homepage & view source
+Open http://$TARGET/ in the browser and view page source. Look for HTML comments; you will find a hinted username:
 
-# 3) Mirror site for offline analysis
-mkdir -p "$ART/web/wget_mirror"
+html
+Copy code
+<!-- Note to self, remember username!
+     Username: R1ckRul3s
+-->
+Check robots & mirror site
+
+bash
+Copy code
+curl -s "http://$TARGET/robots.txt" | tee "$ART/robots.txt"
 wget --mirror --convert-links --adjust-extension --page-requisites --no-parent "http://$TARGET/" -P "$ART/web/wget_mirror"
+In the walkthrough the robots file included Wubbalubbadubdub (treat it as lab-only credential).
 
-# 4) Search static mirror for comments and clues
-grep -RIn --line-number -E 'Username|remember|note|ingredient|secret|pickle|potion' "$ART/web/wget_mirror" | tee "$ART/web/grep_clues.txt"
+Look for portal/login pages
 
-# 5) Inspect main page (example)
-sed -n '1,240p' "$ART/web/wget_mirror/$TARGET/index.html" > "$ART/web/index_preview.txt"
+bash
+Copy code
+# quick custom guesslist (or run gobuster)
+for p in portal.php portal login admin; do
+  curl -s -I "http://$TARGET/$p" | sed -n '1,20p'
+done
+# open http://$TARGET/portal.php in browser
+Login to portal
+Username: R1ckRul3s
 
-# 6) List assets and search them
-find "$ART/web/wget_mirror/$TARGET/assets" -type f -maxdepth 2 -print > "$ART/web/assets_list.txt"
-grep -RIn --line-number -E 'ingredient|secret|pickle|potion|R1ckRul3s|username|remember|note|flag' "$ART/web/wget_mirror/$TARGET/assets" | tee "$ART/web/assets_grep.txt"
+Password: (found in robots / assets in-lab)
+Login yields a command execution box.
 
-# 7) If you find base64/hex strings, decode them (examples)
-# base64: echo '...' | base64 -d
-# hex: echo '68656c6c6f' | xxd -r -p
+Use the portal command box: enumerate and read files
+ls -> shows Sup3rS3cretPickl3Ingred.txt
 
-# 8) Brute-check a few likely paths (safe small list)
-gobuster dir -u "http://$TARGET/" -w /tmp/tryhackme_small_paths.txt -o "$ART/web/gobuster_custom.txt" || true
+less Sup3rS3cretPickl3Ingred.txt -> reveals the first ingredient (${ING1})
+
+(cat may be blacklisted; use less or tail as allowed)
+
+Inspect code & blacklist
+Use the command box to search the webapp files and reveal the list of blacklisted commands (the site source printed the blacklist during the walkthrough).
+
+Check sudo privileges
+Run sudo -l from the command box (or shell) — the walkthrough found passwordless sudo allowed for the web user.
+
+Enumerate root/home and read other flags
+
+bash
+Copy code
+sudo ls ../../../*   # or sudo ls /root /home/rick
+sudo less /root/3rd.txt
+less /home/rick/"second ingredients"
+These reveal the remaining two ingredients: ${ING2} and ${ING3}.

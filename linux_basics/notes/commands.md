@@ -16,3 +16,12 @@ Examples and notes:
 - tar -czf archive.tar.gz folder : archive
 
 Keep this file updated as you learn.
+
+## Week 4 quick refs
+- find / -type f -name 'juiceshop.sqlite'  # find files by name
+- locate filename  # fast DB-based lookup; run `sudo updatedb` first
+- xargs -I{} cp {} /tmp/backup/  # run cmd on list of paths
+- tar -czf backup.tgz folder/
+- sha256sum file > file.sha256
+- crontab -e  # edit user's cron jobs
+- (bash) use `set -euo pipefail` at top of scripts for safety

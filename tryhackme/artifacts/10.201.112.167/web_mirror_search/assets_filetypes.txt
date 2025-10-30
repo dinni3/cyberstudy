@@ -1,0 +1,4 @@
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/bootstrap.min.js:  JavaScript source, ASCII text, with very long lines (37481)
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/jquery.min.js:     JavaScript source, ASCII text, with very long lines (65451)
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/rickandmorty.jpeg: JPEG image data, baseline, precision 8, 1600x900, components 3
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/bootstrap.min.css: ASCII text, with very long lines (65369)

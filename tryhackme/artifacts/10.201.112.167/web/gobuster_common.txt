@@ -1,0 +1,7 @@
+/.htaccess           [33m (Status: 403)[0m [Size: 279]
+/.hta                [33m (Status: 403)[0m [Size: 279]
+/.htpasswd           [33m (Status: 403)[0m [Size: 279]
+/assets              [36m (Status: 301)[0m [Size: 317][34m [--> http://10.201.112.167/assets/][0m
+/index.html          [32m (Status: 200)[0m [Size: 1062]
+/robots.txt          [32m (Status: 200)[0m [Size: 17]
+/server-status       [33m (Status: 403)[0m [Size: 279]

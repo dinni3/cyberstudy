@@ -1,0 +1,4 @@
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/bootstrap.min.js 40 KB
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/jquery.min.js 88 KB
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/rickandmorty.jpeg 488 KB
+/home/dinnie/lab/tryhackme/artifacts/10.201.112.167/web/wget_mirror/10.201.112.167/assets/bootstrap.min.css 120 KB

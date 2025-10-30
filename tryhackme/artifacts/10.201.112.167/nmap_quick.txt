@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Thu Oct 30 14:16:03 2025 as: /usr/lib/nmap/nmap --privileged -Pn -sS -sV -T4 --min-rate 150 -oN /home/dinnie/lab/tryhackme/artifacts/10.201.112.167/nmap_quick.txt 10.201.112.167
+Nmap scan report for 10.201.112.167
+Host is up (0.31s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 30 14:16:20 2025 -- 1 IP address (1 host up) scanned in 16.51 seconds

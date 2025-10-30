@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Thu Oct 30 14:09:07 2025 as: /usr/lib/nmap/nmap --privileged -Pn -sS -T4 -oN /home/dinnie/lab/tryhackme/artifacts/nmap_quick.txt 10.201.112.167
+Nmap scan report for 10.201.112.167
+Host is up (0.39s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Thu Oct 30 14:09:11 2025 -- 1 IP address (1 host up) scanned in 3.95 seconds

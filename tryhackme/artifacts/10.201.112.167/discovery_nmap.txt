@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Thu Oct 30 14:15:12 2025 as: /usr/lib/nmap/nmap --privileged -Pn -sn -oN /home/dinnie/lab/tryhackme/artifacts/10.201.112.167/discovery_nmap.txt 10.201.112.167
+Nmap scan report for 10.201.112.167
+Host is up.
+# Nmap done at Thu Oct 30 14:15:12 2025 -- 1 IP address (1 host up) scanned in 0.00 seconds

@@ -7,3 +7,19 @@
 *.bak
 artifacts/**/raw*
 artifacts/**/responses/*.txt
+# lab artifacts and backups
+/lab/**/artifacts/
+/lab/**/container_dump/
+/lab/**/db_inspect/
+/lab/**/backup_*/
+*.ovpn
+*.pem
+*.key
+*.sqlite
+*.db
+*.env
+# OS / editor files
+.DS_Store
+.vscode/
+__pycache__/
+*.bak
